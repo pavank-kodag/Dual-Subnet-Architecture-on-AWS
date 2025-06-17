@@ -8,6 +8,11 @@ To build a **dual-subnet architecture** on AWS that enables **secure communicati
 
 ---
 
+## Architecture
+![](images/arch.png)
+
+---
+
 ##  Technologies Used
 
 - **Amazon VPC**
