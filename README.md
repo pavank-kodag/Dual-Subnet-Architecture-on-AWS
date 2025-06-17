@@ -29,11 +29,11 @@ To build a **dual-subnet architecture** on AWS that enables **secure communicati
 
 ### 1. Create a VPC
 - Created a custom VPC with CIDR block: `10.0.0.0/16`.
-![](images/s1(2).png)
+![](images/s1 (2).png)
 
 ### 2. Create an Internet Gateway (IGW)
 - Created and attached an Internet Gateway to the VPC.
-![](images/s2(3).png)
+![](images/s1 (2).png)
 
 ### 3. Create Subnets
 - **Public Subnet**: `10.0.1.0/24`
