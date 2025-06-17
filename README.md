@@ -61,15 +61,15 @@ To build a **dual-subnet architecture** on AWS that enables **secure communicati
 ![](images/s7.png)
 
 - Confirmed private instance had no internet.
-![](images/s7.1.png)
+![](images/7.1.png)
 
 ### 8. Create and Configure NAT Gateway
 - Created a NAT Gateway in the public subnet with an Elastic IP.
-![](images/s8.png)
+![](images/8.png)
 
 - Updated private route table to forward `0.0.0.0/0` traffic through the NAT Gateway.
 - Verified the private instance could access the internet via the public instance.
-![](images/s8.1.png)
+![](images/8.1.png)
 
 ---
 
